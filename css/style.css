@@ -1,0 +1,467 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&family=Shadows+Into+Light&display=swap');
+
+/* COMMON PART START */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+/* COMMON PART END */
+/* LOG IN PAGE START */
+#wrapper {
+  width: 393px;
+  margin: 0 auto;
+  background: linear-gradient(180deg, #FFE39D 0%, rgba(255, 227, 157, 0) 100%, #FFE39D 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#login_main {
+  padding-top: 3.775em;
+  text-align: center;
+}
+
+#line {
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.logo a {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 49px;
+  line-height: 48px;
+  color: #000000;
+}
+
+.heading_text p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  padding-bottom: 1.0625em;
+  padding-top: 0.9375em;
+}
+
+.login_text h3 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 32px;
+  color: #000000;
+  padding-bottom: 1.125em;
+
+}
+
+#email,
+#password {
+  width: 248px;
+  height: 44px;
+  border: 1px solid #FFBF1D;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+#password {
+  margin-top: 0.875em;
+
+}
+
+input::placeholder {
+  padding-left: 1.0625em;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #000000;
+}
+
+#checkbox_main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1.75em;
+  padding-left: 4.4375em;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox input {
+  width: 19px;
+  height: 19px;
+  background: #FFFFFF;
+  border: 1px solid #FFBF1D;
+}
+
+.checkbox label {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #000000;
+  padding-left: 3px;
+}
+
+.forgot_password a {
+  padding-top: 2.615em;
+  padding-right: 5.917em;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-decoration-line: underline;
+  color: #000000;
+}
+
+.login_button {
+  margin-top: 1.8125em;
+
+}
+
+.login_button input {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;
+  padding: 15px 30px;
+  background: #FFE39D;
+  border-radius: 4px;
+  border: none;
+  transition: 0.7s;
+  -webkit-transition: 0.7s;
+  -moz-transition: 0.7s;
+  -ms-transition: 0.7s;
+  -o-transition: 0.7s;
+
+}
+.login_button input:hover {
+  background: #FFBF1D;
+  cursor: pointer;
+}
+.member {
+  padding-bottom: 11.125em;
+}
+
+.member p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #000000;
+  padding-top: 1.75em;
+}
+
+.member a {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-decoration-line: underline;
+  color: #FFC531;
+  padding-top: 0.25em;
+
+}
+/* .member a:hover {
+  color: #FFBF1D;
+} */
+
+/* LOGIN PAGE END */
+/* SIGN UP PAGE START */
+
+#member_text h3{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 32px;
+  color: #000000;
+  padding-top: 1.435em;
+} 
+#account_main{
+  width:248px ;
+  margin: 0 auto;
+}
+#create_account_form label{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #000000;
+  text-align: left;
+  padding-top: 0.625em;
+}
+.name,
+.pronouns,
+.dob,
+.email,
+.address,
+.phone,
+.password,
+.cpassword{
+  padding-top: 0.584em;
+}
+#name,
+#pronouns,
+#dob,
+#email,
+#address,
+#phone,
+#password,
+#cpassword{
+  margin-top: 0.584em;
+  width: 248px;
+  height: 44px;
+  border: 1px solid #FFBF1D;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+
+}
+
+input{
+  padding-left: 10px;
+}
+
+
+.create_button{
+  text-align: center;
+  padding-top: 1.25em;
+  padding-bottom: 2.75em;
+}
+.create_button button{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+  padding: 15px 35px;
+  background: #FFE39D;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: 0.7s;
+  -webkit-transition: 0.7s;
+  -moz-transition: 0.7s;
+  -ms-transition: 0.7s;
+  -o-transition: 0.7s;
+
+}
+.create_button button:hover{
+  background: #FFBF1D;
+  cursor: pointer;
+
+}
+/* SIGN UP PAGE END */
+
+
+/* LANDING PAGE START */
+#landing_main{
+  width: 100%;
+  padding-top: 1.435em;
+ 
+  
+}
+
+#landing_main h3{
+  padding-left: 0.87em;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 32px;
+  color: #000000;
+ 
+}
+#landing_main span{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 32px;
+  color: #FFBF1D;
+}
+.flex_container{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.profile_pic{
+  padding-left: 15px;
+}
+.date p{
+  padding-left: 0.87em;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+
+}
+.journal_main{
+  text-align: center;
+  position: relative;
+}
+/* .journal_message{
+  position: relative;
+} */
+.journal_heading{
+  position: absolute;
+  top: 0px;
+  left: 18px;
+  width: 328px;
+  height: 372px;
+}
+.journal_heading h4{
+  text-align: left;
+  font-family: 'Shadows Into Light';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 23px;
+  color: #000000;
+  padding-top: 83px;
+  padding-left: 33px;
+  width: 328px;
+  
+}
+.journal_heading p{
+  text-align: center;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #000000;
+  padding-top: 15px;
+  padding-left: 55px;
+  padding-right: 30px;
+  
+  
+}
+.journal_button {
+  text-align: left;
+  padding-top: 30px;
+  padding-left: 30px;
+ 
+}
+.journal_button a{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;
+  padding: 15px 27px;
+  background: #FFE39D;
+  box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  margin-left: 20px;
+}
+
+.bookthery_images1{
+  padding-top: 33px;
+  padding-left: 25px;
+  padding-right: 20px;
+}
+.bookthery_images2{
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.bookthery_images3{
+  padding-left: 25px;
+  padding-right: 20px;
+  padding-top: 30px;
+}
+.bookthery_images4{
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+#footer{
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top: 28px;
+  width: 393px;
+  background: #fff;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  box-shadow:0px -4px 4px rgba(0, 0, 0, 0.25);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.058);
+}
+#footer .active{
+  color: #FFC123;
+}
+#footer i{
+  font-size: 30px;
+  color: #000;
+ 
+  padding: 25px 25px;
+}
+.first_item{
+  padding-left: 17px;
+}
+/* LANDING PAGE END */
+
+
+/* .login__txt_error{
+	background: red;
+} */
+#output {
+	margin-top: 50px;	
+	border: 2px solid black;
+	padding: 30px 30px;	
+	display:none;
+}
+#output p{
+  padding: 50px 50px;
+  font-weight: bold;
+  font-size: 50px;
+  text-transform: uppercase;
+}
